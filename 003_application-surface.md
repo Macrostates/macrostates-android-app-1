@@ -42,6 +42,27 @@ surprising I/O as part of rendering.
 User-visible state should account for loading, empty, error, denied-permission,
 and unavailable-platform states where those states can occur.
 
+### Keyboard And Action Visibility
+
+Showing the on-screen keyboard must not hide or obstruct the primary action of
+an input workflow. Keep the action visible and operable above the keyboard,
+including on first-run forms, authentication screens, and input dialogs. Users
+must not need to dismiss the keyboard or discover an off-screen button to
+continue. Keyboard action keys may supplement, but must not replace, an obvious
+on-screen action with the same validation rules.
+
+Adapt the layout to the remaining usable window area and account for keyboard,
+system bars, and display cutouts without applying the same spacing twice.
+Reserve space for the action controls and let longer form content scroll where
+needed. Keep focused inputs and associated feedback reachable, and preserve
+entered state when the keyboard opens, closes, or changes size. Avoid fixed
+screen dimensions or guessed keyboard heights.
+
+Apply this behavior across supported orientations, compact windows, enlarged
+text, and supported keyboard/navigation configurations. Actions must remain
+usable during validation, errors, and loading states as appropriate; disabled
+actions should stay visible with understandable feedback.
+
 ## Navigation
 
 Use Navigation Compose for in-app navigation in Compose-first applications

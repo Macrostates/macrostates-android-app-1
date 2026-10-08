@@ -35,6 +35,13 @@ and important Compose state rendering where regressions would be costly.
 Do not make every visual detail an end-to-end test. Prefer stable semantic
 assertions and targeted screenshot tests only when visual regressions matter.
 
+For input workflows, verify with a visible software keyboard that the primary
+action remains on screen, unobstructed, and tappable without scrolling to find
+it or hiding the keyboard. Exercise focus changes, validation/error states,
+keyboard show/hide, and constrained layouts such as landscape or enlarged text.
+Checking only the keyboard-hidden layout or invoking semantic click actions
+without checking actual visible bounds does not establish keyboard safety.
+
 ## Compatibility Tests
 
 Persisted formats, exported artifacts, manifest contracts, and documented
