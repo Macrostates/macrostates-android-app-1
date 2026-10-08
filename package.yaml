@@ -1,16 +1,15 @@
 name: android-app-1
-version: 4.0.0
-versioned_at: 2026-10-08 12:08
-description: Reusable Android application layout, tooling, packaging, and quality
-  conventions.
+version: 4.0.1
+versioned_at: 2026-10-08 17:14
+description: Reusable Android application layout, tooling, packaging, and quality conventions.
 entrypoint: README.md
 dependencies:
 - name: meta
-  version: 2.0.0
+  version: 2.0.1
   constraint: compatible
 - name: repository-1
-  version: 2.0.0
+  version: 2.0.1
   constraint: compatible
 - name: process
-  version: 3.0.0
+  version: 3.0.1
   constraint: compatible
