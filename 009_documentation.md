@@ -12,6 +12,8 @@ The repository README should include:
 - supported development toolchain once scaffolded;
 - setup steps;
 - common build, test, lint, and packaging commands;
+- the application version source, automatic bump policy, release commit and tag
+  procedure, and versioned APK location or naming pattern;
 - important privacy, security, network, storage, or permission constraints;
 - license status.
 
@@ -32,4 +34,3 @@ record the decision in an implementation decision record.
 
 Generated documentation and reports should not be committed unless a
 project-specific workflow requires them.
-

@@ -18,6 +18,8 @@ specification packages into specs-driven development projects.
 - Formatting, linting, and static analysis expectations.
 - Unit, integration, instrumentation, and UI test expectations.
 - Debug, release, signing, and packaged artifact expectations.
+- Application version storage, automatic semantic version bumps, release tags,
+  and versioned APK filenames.
 - README, developer documentation, and example expectations.
 
 Project-specific product behavior, privacy policy, security model, branding,
@@ -36,3 +38,4 @@ project-local package.
 8. [Packaging](008_packaging.md)
 9. [Documentation](009_documentation.md)
 10. [Examples](010_examples.md)
+11. [Application Versioning](011_application-versioning.md)

@@ -11,8 +11,9 @@ Application ID is a public identity. Changing it creates a different installed
 app from Android's perspective and should be treated as a major product and
 release decision.
 
-Version code must increase for published Android releases. Version name should
-be understandable to users and operators.
+Application versions follow [Application Versioning](011_application-versioning.md).
+That document defines the committed version source, automatic version bumps,
+Android version codes, application release commits and tags, and APK names.
 
 ## Build Variants
 
@@ -39,6 +40,10 @@ explicit release workflow requires it.
 
 Build artifacts should be generated under Gradle build output directories.
 
+Every generated application APK filename must include the application version
+and identify its build variant, as defined in
+[Application Versioning](011_application-versioning.md).
+
 ## Distribution
 
 Distribution channel requirements belong in the project-specific package when
@@ -47,4 +52,3 @@ content, or release cadence.
 
 If a project publishes outside an app store, document installation, update, and
 signature verification expectations.
-
