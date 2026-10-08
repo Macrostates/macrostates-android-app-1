@@ -26,6 +26,16 @@ Project-specific product behavior, privacy policy, security model, branding,
 distribution channel policy, release cadence, and user workflows belong in a
 project-local package.
 
+## Macrostates artifacts
+
+Follow the selected Meta package's project layout: numbered specification
+packages and the project entrypoint are tracked under `.macrostates/specs/`.
+Implementation documentation, decisions, workflows and release declarations,
+when required by project rules, live under `.macrostates/implementation/`.
+Application source, tests, build configuration and runtime configuration retain
+their language/tool locations outside `.macrostates/`. This package does not
+make the Macrostates CLI mandatory or change the scope of a subproject.
+
 ## Reading order
 
 1. [Project Layout](001_project-layout.md)

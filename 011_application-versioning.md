@@ -16,8 +16,9 @@ its automatic tag for every completed change set.
 
 ## Committed Version Source
 
-Use the Process-owned `implementation/release.yaml` in the application's repository
-as the single authoritative tracked declaration. Add the required Android extension:
+Use the Process-owned `.macrostates/implementation/release.yaml` in the
+application's repository as the single authoritative tracked declaration. Add
+the required Android extension:
 
 ```yaml
 version: "6.4.8"
