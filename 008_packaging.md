@@ -12,8 +12,9 @@ app from Android's perspective and should be treated as a major product and
 release decision.
 
 Application versions follow [Application Versioning](011_application-versioning.md).
-That document defines the committed version source, automatic version bumps,
-Android version codes, application release commits and tags, and APK names.
+That document defines Android's consumption of the Process-owned release
+declaration, Android version codes, release date and APK names. Process owns
+contract version classification, primary-branch alignment and release/tag rules.
 
 ## Build Variants
 

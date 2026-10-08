@@ -18,8 +18,8 @@ specification packages into specs-driven development projects.
 - Formatting, linting, and static analysis expectations.
 - Unit, integration, instrumentation, and UI test expectations.
 - Debug, release, signing, and packaged artifact expectations.
-- Application version storage, automatic semantic version bumps, release tags,
-  and versioned APK filenames.
+- Android integration of Process's contract-based versioning and authoritative
+  release declaration: version name/code, release date and versioned APK filenames.
 - README, developer documentation, and example expectations.
 
 Project-specific product behavior, privacy policy, security model, branding,
