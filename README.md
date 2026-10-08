@@ -39,3 +39,10 @@ project-local package.
 9. [Documentation](009_documentation.md)
 10. [Examples](010_examples.md)
 11. [Application Versioning](011_application-versioning.md)
+
+## License
+
+This specification package, including its documentation, metadata, and bundled
+resources, is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Lucas Lopez.
