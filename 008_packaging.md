@@ -12,9 +12,11 @@ app from Android's perspective and should be treated as a major product and
 release decision.
 
 Application versions follow [Application Versioning](011_application-versioning.md).
-That document defines Android's consumption of the Process-owned release
-declaration, Android version codes, release date and APK names. Process owns
-contract version classification, primary-branch alignment and release/tag rules.
+That document defines the default implementation-derived version name, optional
+independent application policy, Android version codes, application release
+metadata, provenance, and APK names. Process owns repository baselines and
+general preparation and integration; application specifications own the app's
+release cadence, version strategy, tag policy, and publication conditions.
 
 ## Build Variants
 

@@ -18,13 +18,19 @@ specification packages into specs-driven development projects.
 - Formatting, linting, and static analysis expectations.
 - Unit, integration, instrumentation, and UI test expectations.
 - Debug, release, signing, and packaged artifact expectations.
-- Android integration of Process's contract-based versioning and authoritative
-  release declaration: version name/code, release date and versioned APK filenames.
+- Android application version policies, default implementation-derived version
+  names, independent version codes, release provenance, and versioned APK names.
 - README, developer documentation, and example expectations.
 
 Project-specific product behavior, privacy policy, security model, branding,
 distribution channel policy, release cadence, and user workflows belong in a
 project-local package.
+
+This release requires Process 5.0.0 and Repository-1 4.0.0 or later, as declared
+in `package.yaml`. Earlier Android package releases retain their previous
+versioning and metadata rules. The current policy allows the numeric `imp-*`
+default for `versionName`, an explicit application override, and independent
+Android version codes. Review future selected majors for semantic compatibility.
 
 ## Macrostates artifacts
 
