@@ -12,10 +12,12 @@ The repository README should include:
 - supported development toolchain once scaffolded;
 - setup steps;
 - common build, test, lint, and packaging commands;
-- `.macrostates/implementation/release.yaml` as the application version/date/counter source,
-  its exact specification baseline, the Process-owned automatic bump policy,
-  the separate commit/release-tag procedure, and versioned APK location or naming
-  pattern; document any pending adoption accurately until the build consumes it;
+- the authoritative application version/date/counter source, its selected
+  version policy or implementation-derived default, exact Macrostates baseline
+  provenance, development-build identity, and separate integration, finalization,
+  and app-publication procedures;
+- versioned APK locations or naming patterns; document any pending metadata
+  migration accurately until the build consumes the authoritative declaration;
 - important privacy, security, network, storage, or permission constraints;
 - license status.
 
